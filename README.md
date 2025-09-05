@@ -116,7 +116,7 @@ The system detects license plates in real-time and overlays the extracted text d
 ## 🚀 Key Features
 
 ### **Real-Time Detection & Recognition**
-- **Live video processing** from CCTV feeds, webcam, or video files
+- **Live video processing** from CCTV feeds, or video files
 - **Dual object detection**: License plates and vehicles with color-coded bounding boxes
 - **Real-time OCR processing** with immediate text overlay on video feed
 - **Dynamic confidence scoring** for detection quality assessment
@@ -143,8 +143,6 @@ The system detects license plates in real-time and overlays the extracted text d
 
 ### **Flexible Input Sources**
 - **Video file processing** (MP4, AVI, etc.)
-- **Live webcam feed** support
-- **Automatic fallback** to webcam if video file not found
 - **Interactive source selection** when files are missing
 
 ---
