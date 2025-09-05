@@ -149,16 +149,6 @@ The system detects license plates in real-time and overlays the extracted text d
 
 ---
 
-## 📊 Detection Results
-
-### Sample Detection Statistics:
-Based on recent test runs, the system achieved:
-- **113 total detections** from a single video processing session
-- **43 unique license plates** identified
-- **Top detected plates**: MMSIVSU (12 times), NAI3 NRU (9 times), MUSIVSU (7 times)
-- **Average confidence**: 0.7+ for valid detections
-
----
 
 ## 📦 Model Training & Dataset
 
@@ -284,20 +274,6 @@ Each detection is logged with comprehensive metadata:
 
 ---
 
-## 🔧 System Requirements
-
-### **Hardware**
-- **CPU**: Multi-core processor (Intel i5+ or AMD equivalent)
-- **RAM**: 8GB+ recommended for video processing
-- **Storage**: 2GB+ free space for model weights and results
-- **GPU**: Optional but recommended for faster inference
-
-### **Software**
-- **Python**: 3.8+ (3.10+ recommended)
-- **Operating System**: Windows 10+, macOS 10.14+, or Linux
-- **Webcam**: Optional for live detection
-
----
 
 ## 🚨 Troubleshooting
 
