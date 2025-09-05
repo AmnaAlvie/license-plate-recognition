@@ -72,7 +72,7 @@ The release was published as a **stable release** . While the model works reliab
 
 ## 📂 Repository Structure
 
-```plaintext
+```
 .
 ├── weights/
 │   ├── best.pt        # Downloaded model weights (from Releases)
@@ -81,25 +81,34 @@ The release was published as a **stable release** . While the model works reliab
 │   └── alpr.ipynb     # Main notebook (detection + OCR pipeline)
 ├── requirements.txt
 └── README.md
-
-
+```
 
 ---
 
 ## ⚙️ Installation
 
 1. Clone this repository:
-  
+   ```bash
+   git clone <repo-url>
+   cd <repo-folder>
+   ```
+
 2. Create a virtual environment (recommended):
-```bash
-    python -m venv venv
-    source venv/bin/activate  # Linux/Mac
-    venv\Scripts\activate     # Windows
+
+   - **Linux/Mac:**
+     ```bash
+     python -m venv venv
+     source venv/bin/activate
+     ```
+   - **Windows:**
+     ```bash
+     python -m venv venv
+     venv\Scripts\activate
+     ```
 
 3. Install dependencies:
- ```bash
-    pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-  
-4. Download the model weights from Releases and place in weights/best.pt
-
+4. Download the model weights from Releases and place in `weights/best.pt`
