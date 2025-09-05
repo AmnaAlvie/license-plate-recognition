@@ -1,0 +1,19 @@
+# Python cruft
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & weights (keep the folder, ignore the big files)
+weights/*
+!weights/.gitkeep
+
+data/
+assets/
+outputs/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
